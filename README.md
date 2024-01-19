@@ -5,7 +5,7 @@
 
 ## Overview
 
-This kata complements [Clean Code: Advanced TDD, Ep. 21](https://cleancoders.com/episode/clean-code-episode-21-p1).
+This kata complements [Clean Code: Advanced TDD, Ep. 23](https://cleancoders.com/episode/clean-code-episode-23-p1).
 
 This repository contains an exercise designed to improve your skills in
 test-driven development. It represents code you inherited from a legacy code
