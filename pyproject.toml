@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "bootstrap-python-kata"
+name = "tire-pressure-monitoring-python-kata"
 version = "1.0.0"
-description = "Bootstrap for Python katas"
+description = "Tire pressure monitoring kata in Python"
 authors = ["Codding Cuddles"]
 
 [tool.poetry.dependencies]
