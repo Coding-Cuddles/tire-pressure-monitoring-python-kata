@@ -1,4 +1,4 @@
-import random
+from random import uniform
 
 
 class Sensor:
@@ -11,5 +11,5 @@ class Sensor:
     @staticmethod
     def sample_pressure():
         # The reading of the pressure value from the sensor is simulated
-        pressure_telemetry_value = 6 * random.random() * random.random()
+        pressure_telemetry_value = uniform(0, 6)
         return pressure_telemetry_value
