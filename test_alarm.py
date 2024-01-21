@@ -1,4 +1,4 @@
-from tire_pressure_monitoring import Alarm
+from alarm import Alarm
 
 
 class TestAlarm:
