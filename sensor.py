@@ -6,7 +6,7 @@ class Sensor:
 
     def pop_next_pressure_psi_value(self):
         pressure_telemetry_value = self.sample_pressure()
-        return Sensor.OFFSET + pressure_telemetry_value
+        return self.OFFSET + pressure_telemetry_value
 
     @staticmethod
     def sample_pressure():
