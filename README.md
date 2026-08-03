@@ -122,4 +122,4 @@ Make is optional. Run `make` or `make help` to list these commands in the termin
 
 ## Credits and references
 
-* <https://github.com/emilybache/Racing-Car-Katas/tree/main/Python/TirePressureMonitoringSystem>
+- <https://github.com/emilybache/Racing-Car-Katas/tree/main/Python/TirePressureMonitoringSystem>
