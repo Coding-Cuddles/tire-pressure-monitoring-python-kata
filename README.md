@@ -31,7 +31,7 @@ tire sensor, providing random but realistic values.
 You can choose to use stubs, mocks, or none at all. If you do, you are free to
 use the mocking tool that you prefer.
 
-> **Note**
+> [!NOTE]
 >
 > If you decide to use mocks, we recommend using the
 > [unittest.mock](https://docs.python.org/3/library/unittest.mock.html)
