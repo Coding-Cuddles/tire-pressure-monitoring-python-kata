@@ -107,22 +107,6 @@ and the locked project dependencies when needed.
 
    Continue when the test run completes without failures.
 
-## Run the sample entry point
-
-Use Make when it is installed:
-
-```console
-make run
-```
-
-Otherwise, run `main.py` through `uv` directly:
-
-```console
-uv run python main.py
-```
-
-Both commands print `Hello World!`.
-
 ## Make command reference
 
 Make is optional. Run `make` or `make help` to list these commands in the terminal.
@@ -131,7 +115,6 @@ Make is optional. Run `make` or `make help` to list these commands in the termin
 | ------------------- | --------------------------------------- |
 | `make all`          | Run the test suite                      |
 | `make help`         | Show the available Make targets         |
-| `make run`          | Run the sample entry point              |
 | `make test`         | Run the test suite                      |
 | `make format`       | Format tracked Python files             |
 | `make format-check` | Check formatting without changing files |
