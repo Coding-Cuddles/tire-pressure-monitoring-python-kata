@@ -4,20 +4,20 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Practice characterization testing against inherited tire-pressure monitoring code. Setup is
-complete when the existing test passes.
+Practice characterization testing against inherited tire-pressure monitoring
+code in Python 3.11 or later with pytest. Setup is complete when the existing
+test passes.
 
 ## Overview
 
 This kata complements [Clean Code: Advanced TDD, Ep. 23](https://cleancoders.com/episode/clean-code-episode-23-p1).
 
 This repository contains two exercises designed to improve your skills in
-test-driven development. It represents code you inherited from a legacy code
-base.
+test-driven development. It represents code you inherited from a legacy
+codebase.
 
-As a first step, try to get some kind of test in place before you change the
-class at all. If the tests are hard to write, is that because of the problems
-with SOLID principles?
+As a first step, add a characterization test before changing the class. If the
+test is hard to write, consider whether the code violates SOLID principles.
 
 ### Exercise 1
 
@@ -25,11 +25,11 @@ Write the unit tests for the `Alarm` class. The `Alarm` class is designed to
 monitor tire pressure and set an alarm if the pressure falls outside of the
 expected range.
 
-The `Sensor` class provided for the exercise simulates the behaviour of a real
+The `Sensor` class provided for the exercise simulates the behavior of a real
 tire sensor, providing random but realistic values.
 
-You can choose to use stubs, mocks, or none at all. If you do, you are free to
-use the mocking tool that you prefer.
+You can choose to use stubs or mocks, or avoid test doubles entirely. If you use
+mocks, choose the mocking tool you prefer.
 
 > [!NOTE]
 >
@@ -39,8 +39,8 @@ use the mocking tool that you prefer.
 
 ### Exercise 2
 
-Use one of the mocking patterns: Self-Shunt, Test-Specific Subclass, or Humble
-Object. If you used one of them already, use another one.
+Use one of these mocking patterns: Self-Shunt, Test-Specific Subclass, or Humble
+Object. If you already used one, use a different pattern.
 
 ## Prerequisites
 
